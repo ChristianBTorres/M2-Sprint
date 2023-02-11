@@ -46,6 +46,39 @@
     </nav>
   </header>
   <main>
+    <div class="p-4 p-md-5 mb-4 rounded text-bg-dark"
+      style="background: url(https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtaW5nJTIwa2V5Ym9hcmR8ZW58MHx8MHx8&w=1000&q=80); background-size: cover;">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 fst-italic">Login</h1>
+        <p class="lead my-3">Identificate como paciente o administrador.</p>
+      </div>
+    </div>
+    <form class="m-5">
+      
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+    <br>
+
+    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+      <label class="btn btn-outline-primary" for="btnradio1">Cliente</label>
+    
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+      <label class="btn btn-outline-primary" for="btnradio2">Administrador</label>
+    
+
+    </div><br><br><br>
+      <div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+    </form>
   </main>
   <footer>
     <!-- place footer here -->
