@@ -120,8 +120,8 @@ new Chart(ctx3, {
             { label: 'Perfil Lipídico', data: creargrafico(12, 10), borderWidth: 1 },
             { label: 'Colesterol', data: creargrafico(12, 10), borderWidth: 1 },
             { label: 'Orina', data: creargrafico(12, 10), borderWidth: 1 },
-            { label: 'Perfil Lipídico', data: creargrafico(12, 10), borderWidth: 1 },
-            { label: 'Perfil Lipídico', data: creargrafico(12, 10), borderWidth: 1 },
+            { label: 'Perfil Bioquímico', data: creargrafico(12, 10), borderWidth: 1 },
+            { label: 'Coagulación', data: creargrafico(12, 10), borderWidth: 1 },
         ]
     },
     options: {
