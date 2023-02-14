@@ -12,14 +12,3 @@ const grid = new gridjs.Grid({
     )
   ])
 }).render(document.getElementById("tabla"));
-
-
-
-
-
-formatter: (cell, row) => {
-  return gridjs.h('button', {
-    className: 'btn btn-primary',
-    onClick: () => alert(`Editing "vvv"`)
-  }, 'Edit');
-}
